@@ -12,11 +12,15 @@ A simple smart home setup for controlling appliances from Android app.
 * [MIT App Inventor](http://ai2.appinventor.mit.edu/)
 
 ### Usage
-* Download the .ino file, make and edit the firebase authentication details and Wifi settings.
+**Setting up the Arduino**
+* In the smart_room.ino file edit the firebase authentication details and Wifi settings.
 * Import the zip files for [ArduinoJson](http://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.2.zip) and [firebase-arduino](https://github.com/FirebaseExtended/firebase-arduino) in the code.
-* Upload the code to NodeMCU
-* Download .aia file and import it into MIT App Inventor, then edit the Firebase URL
+* Upload the code to the NodeMCU board
+
+**Setting up the App**
+* Download .aia file and import it into [MIT App Inventor](http://ai2.appinventor.mit.edu/), then edit the Firebase URL
+* Build the .apk file, and install.
 
 ### Issues
-* NodeMCU causes some trouble with 5 GHz wifi, so use the 2.4 GHz wifi.
+* NodeMCU causes some trouble with 5 GHz wifi band, so use the 2.4 GHz wifi band.
 * There are some bugs with latest versions of ArduinoJSON, use version [5.13.2](http://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-5.13.2.zip)
